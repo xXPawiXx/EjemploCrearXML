@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universidad>
+  <estudiante>
+    <nombre>Andres Calero</nombre>
+    <telefono>3235865827</telefono>
+    <correo>afk_723@hotmail.com</correo>
+    <codigo>2156730</codigo>
+    <carrera>Ingenieria Multimedia</carrera>
+  </estudiante>
+  <estudiante>
+    <nombre>Daniel Calero</nombre>
+    <telefono>3144837222</telefono>
+    <correo>dak_93@hotmail.com</correo>
+    <codigo>2160017</codigo>
+    <carrera>Cine Digital</carrera>
+  </estudiante>
+</universidad>

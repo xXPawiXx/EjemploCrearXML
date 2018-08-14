@@ -1,14 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="creararchivoxml.FXMLDocumentController">
-    <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
-    </children>
+<AnchorPane id="AnchorPane" prefHeight="527.0" prefWidth="422.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="creararchivoxml.FXMLDocumentController">
+   <children>
+      <Label layoutX="98.0" layoutY="22.0" text="Agregar Estudiante">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="84.0" text="Nombre">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TNombre" layoutX="138.0" layoutY="85.0" />
+      <TextField fx:id="TTelefono" layoutX="138.0" layoutY="141.0" />
+      <Label layoutX="58.0" layoutY="140.0" text="Telefono">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TCorreo" layoutX="138.0" layoutY="192.0" />
+      <Label layoutX="58.0" layoutY="191.0" text="Correo">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TCodigo" layoutX="138.0" layoutY="252.0" />
+      <Label layoutX="58.0" layoutY="251.0" text="Codigo">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TCarrera" layoutX="138.0" layoutY="315.0" />
+      <Label layoutX="58.0" layoutY="314.0" text="Carrera">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="AgregarEstudiante" layoutX="25.0" layoutY="429.0" mnemonicParsing="false" onAction="#AgregarEstudiante" text="Agregar Estudiante">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="GuardarArchivo" layoutX="212.0" layoutY="429.0" mnemonicParsing="false" onAction="#GuardarArchivo" text="Guardar Archivo XML">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Limpiar" layoutX="164.0" layoutY="475.0" mnemonicParsing="false" onAction="#Limpiar" text="Limpiar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>
